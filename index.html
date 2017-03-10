@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mi título</title>
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" 
+      href="./mayEstail.css" >
+</head>
+<body>
+	<form class="form-horizontal" action="RecibeForm" 
+	      method="GET" >
+	<article id="articleUno">
+		<span class="familia kolor tamanho">
+		Artículo One
+		<details>
+			<summary>Ver más ...
+			</summary>
+			<p><em>Lorem Ipsum</em> <strong>es simplemente</strong> el <b>texto de</b> relleno de las <mark>imprentas</mark> y archivos de texto. <small>Lorem Ipsum</small> ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor <cite>(N. del T. persona que se dedica a la imprenta)</cite> desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.<hr></p>
+		</details>
+		</span>
+	</article>
+	<article class="maiPley">
+		El mega Form
+<form class="form-horizontal">
+
+
+
+<select multiple name="ciudades" size="6" >  
+	<option value="MA">Madrid</option>
+	<option value="BA">Barcelona</option>
+	<option value="SE">Sevilla</option>
+	<option value="CO">Córdoba</option>
+	<option value="JA">Jaén</option>
+	<option value="PO">Pontevedra</option>
+	<option value="VI">Bizkaia</option>
+</select>
+
+    <div class="form-group">
+        <label class="control-label col-xs-3">Email:</label>
+        <div class="col-xs-9">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="eMail">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Password:</label>
+        <div class="col-xs-9">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Confirmar Password:</label>
+        <div class="col-xs-9">
+            <input type="password" class="form-control" placeholder="Confirmar Password">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Nombre:</label>
+        <div class="col-xs-9">
+            <input type="text" class="form-control" placeholder="Nombre">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Apellido:</label>
+        <div class="col-xs-9">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+    
+    <div class="form-group">
+    	<label class="control-label col-xs-3">
+    		Fecha de fin de curso 
+    	</label>
+        <div class="col-xs-9">
+            <input type="date" class="form-control">
+        </div> 		
+    </div>
+    <!--  --> 
+    <div class="form-group">
+        <label class="control-label col-xs-3" >Telefono:</label>
+        <div class="col-xs-9">
+            <input type="tel" class="form-control" placeholder="Telefono">
+        </div>
+    </div>
+    
+    <div class="form-group">
+    	<label class="control-label col-xs-3">
+    		Rango Salario 
+    	</label>
+        <div class="col-xs-9">
+            <input type="range" min="5000" max="24000" class="form-control">
+        </div> 		
+    </div>    
+    
+    <div class="form-group">
+    	<label class="control-label col-xs-3">
+    		Foto del trabajador
+    	</label>
+        <div class="col-xs-9">
+            <input type="file" class="form-control">
+        </div> 		
+    </div>     
+
+    <div class="form-group">
+    	<label class="control-label col-xs-3">
+    		Color de ojos del trabajador
+    	</label>
+        <div class="col-xs-9">
+            <input type="color" class="form-control">
+        </div> 		
+    </div>
+
+    
+    <div class="form-group">
+        <label class="control-label col-xs-3">F. Nacimiento:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Dia</option>
+            </select>
+        </div>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Mes</option>
+            </select>
+        </div>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Año</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Dirección:</label>
+        <div class="col-xs-9">
+            <textarea rows="3" class="form-control" placeholder="Dirección"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Genero:</label>
+        <div class="col-xs-2">
+            <label class="radio-inline">
+                <input type="radio" name="genderRadios" value="male"> Maculino
+            </label>
+        </div>
+        <div class="col-xs-2">
+            <label class="radio-inline">
+                <input type="radio" name="genderRadios" value="female"> Femenino
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-offset-3 col-xs-9">
+            <label class="checkbox-inline">
+                <input type="checkbox" value="news"> Enviar noticias.
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-offset-3 col-xs-9">
+            <label class="checkbox-inline">
+                <input type="checkbox" value="agree">  Accepto <a href="#">Terminos y condiciones</a>.
+            </label>
+        </div>
+    </div>
+    <br>
+    <div class="form-group">
+        <div class="col-xs-offset-3 col-xs-9">
+            <input type="submit" class="btn btn-primary" value="Enviar">
+            <input type="reset" class="btn btn-default" value="Limpiar">
+        </div>
+    </div>
+</form>
+	</article>
+</section>
+
+<aside>
+	Esto va a un ladito...
+</aside>
+
+<footer>
+	El copyright
+</footer>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
